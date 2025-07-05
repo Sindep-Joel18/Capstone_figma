@@ -93,12 +93,10 @@ body {
 .subheader {
   background-image: url("../images/1.jpg");
   background-repeat: no-repeat;
-  background-size: cover; /* or "contain" depending on design */
+  background-size: cover; 
   background-position: center;
   padding: 120px 40px;
   min-height: 500px;
-  /* padding: 20px 10px; */
-  /* background-color: var(--color-lightgray); */
 }
 
 .subheader-container {
@@ -170,16 +168,9 @@ body {
 .features {
   background-image: url("../images/2.png");
   background-repeat: no-repeat;
-  background-size: cover; /* or "contain" depending on design */
+  background-size: cover;
   background-position: center;
   padding: 120px 40px;
-
-  /* padding: 20px 10px;
-    background-color: var(--color-white); */
-  /* margin-top: -60px; /* pull it up over the hero section 
-    padding-top: 100px; /* add inner spacing so content doesn't hide 
-    border-radius: 24px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05); */
 }
 
 .features-container {
@@ -191,7 +182,6 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 40px;
-  /* border: 1px dashed orange; */
 }
 
 .features-image-stack {
@@ -203,7 +193,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid red; */
 }
 
 .image-stack {
@@ -229,7 +218,6 @@ body {
   flex: 1;
   min-width: 300px;
   max-width: 550px;
-  /* border: 1px solid green; */
 }
 
 .features-header {
@@ -339,12 +327,9 @@ body {
 
 .step img {
   position: absolute;
-  /* width: 100%;
-    height: 100%; */
   object-fit: cover;
   top: 0;
   left: 0;
-  /* border-radius: 12px; */
   z-index: 1;
 }
 
@@ -420,7 +405,6 @@ body {
       gap: 1rem;
       justify-content: center;
       align-items: center;
-      /* overflow: hidden; */
       position: relative;
       width: 100%;
       margin-bottom: 80px;
@@ -528,14 +512,12 @@ body {
   background-repeat: no-repeat;
   min-height: 800px;
   padding: 80px 20px;
-  /* max-width: 100%; */
 }
 
 .footer-content{
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   max-width: 100%;
   margin: 0 auto;  
   gap: 10px;
