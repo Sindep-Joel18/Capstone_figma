@@ -1,0 +1,26 @@
+/* Group 26857 */
+
+position: absolute;
+width: 214px;
+height: 60px;
+left: 1005px;
+top: 40px;
+
+
+/* Sign up */
+
+position: absolute;
+width: 214px;
+height: 38px;
+left: 1202px;
+top: 52px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+
